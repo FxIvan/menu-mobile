@@ -1,0 +1,36 @@
+@media only screen and (max-width: 701px) {
+    li,
+    a {
+        list-style: none;
+        text-decoration: none;
+        margin-top: 0.4rem;
+    }
+
+    .primernav {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 150px;
+        border-radius: 5px;
+        padding: 1rem;
+      }
+
+      .btnDropDown {
+        display: block;
+      }
+
+      .btnDropDown:hover .dropdownMenu {
+        display: block;
+      }
+
+      .dropdownMenu {
+        display: none;
+        border-radius: 5px;
+        position: absolute;
+        width: 100%;
+        right: 0;
+        padding: 1rem;
+        /* este hace que se vea abajo del home por que osino que ve al margen*/
+      }
+    
+}
